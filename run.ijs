@@ -12,4 +12,8 @@ y=. y , (LF ~: {: y) # LF
 cwd
 
 arr=: tonums cut tidy readfile < 'input.txt'
-+/ (<. arr % 3) - 2
+fuel=: 3 : 0
+(<. y % 3) - 2
+)
+
++/ fuel arr
